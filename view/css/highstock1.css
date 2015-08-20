@@ -1,0 +1,22 @@
+.chart-wrapper {
+ position: relative;
+    margin-bottom: 20px;
+    width:95%;
+    height: 300px;
+    float:left;
+    margin-left: 30px;
+    background-color: #D9DCDE;
+    border-radius: 20px;
+}
+
+.chart-inner {
+position: absolute;
+    width: 75%; 
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    height: 280px;
+    border-radius: 10px;
+
+}
+

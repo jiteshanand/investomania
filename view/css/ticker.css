@@ -1,0 +1,91 @@
+.ticker-container{
+
+width:65%;
+margin-top: 70px;
+position: fixed;
+/*background: gray;*/
+
+}
+
+.ticker-display{
+
+  list-style-type: none;
+  height: 75px;
+  display: flex;
+}
+
+.ticker-display li{
+
+  width: 32%;
+  height: 100%;
+  border: 1px solid #BEBEBE;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+.ticker-display li:nth-child(3){
+
+  width: 36%;
+}
+.sensex-ticker{
+
+  background: #EBEBEB;
+  height: 100%;
+}
+
+.nifty-ticker{
+
+ background: #EBEBEB; 
+ height: 100%;
+}
+
+.portfolio-ticker{
+
+ background: #EBEBEB; 
+ height: 100%; 
+}
+
+.title-ticker{
+
+  font-size: 25px;
+  margin-left: 10px;
+  color: #6D6C78;
+  font-family: 'Bree Serif', serif;
+}
+
+.title-data{
+
+  font-size: 20px;
+  color: green;
+  float: right;
+  margin-right: 5px;
+  margin-top: 3px;
+  font-family: 'Exo', sans-serif;
+}
+
+.ticker-data{
+
+  display: flex;
+  margin-top: 5px;
+}
+
+.ticker-data .title{
+
+  font-size: 15px;
+  color: #434343;
+  font-weight: bold;
+  padding-left: 10px;
+  text-align: center;
+  font-family: 'Bree Serif', serif;
+}
+
+.ticker-data .data{
+
+  font-size: 16px;
+  color: #18A18D;
+  font-family: 'Exo', sans-serif;
+}
+
+.ticker-data td{
+
+  width: 25%;
+}

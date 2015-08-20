@@ -1,0 +1,29 @@
+1. dashboard
+	1.1 dashboard common naviation bar
+	1.2 dashboard header user details such as follower,tagline,location etc
+	1.3 dashboard graph
+	1.4 dashboard current sensex data
+	1.5 My watchlist at dashboard
+	
+2 User chat
+	2.1 status box 
+	2.2 post status
+	2.3 comment on post
+	2.4 like/dislike status and its count
+	2.5 like/dislike comments and its count
+
+3. portfolio
+	3.1 header to display current stock data
+	3.2 stock column desin for info display
+	3.3 Analysis/graphs at top of list such as total loss vs gain
+	3.4 expert or analysis recommending buy/sell/hold on the stocks in portfolio in navbar at right side.
+	
+
+4. Network
+	4.1 what people are commenting in your network.
+	4.2 user list
+
+
+5. Analysis
+
+6. League

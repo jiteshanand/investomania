@@ -1,0 +1,455 @@
+
+*
+{
+    margin: 0;
+    padding: 0;
+}
+body{
+
+    background-color: rgb(242, 242, 242);
+}
+
+/*.navbarcontainer{
+
+    display: flex;
+}*/
+
+.outercontainer{
+
+    display: flex;
+}
+.content-container{
+
+    display: block;
+    width: 65%;
+    margin-left: 15%;
+    /*margin-top: 70px;*/
+    /*background-color: #EAF2F4;*/
+    background-color: white;
+}
+.stat-container{
+
+  width: 20%;
+  /*height: 100px;
+  background: black;
+  margin-top: 70px;*/
+}
+/* Css code for graph and sensex data display starts here */  
+.sensexdata{
+    margin-top: 69px;
+    margin-left: -20px;
+}
+.rowone{
+
+    margin-left: 20px;
+    margin-top: 20px;
+    display: flex;
+    width: 975px;
+    height: 345px;
+    background-color: #314451;
+    border-radius: 20px;
+
+}
+.datadisp{
+    display: block;
+}
+.exchangedisptag,.exchangedisp{
+    margin-left: 25px;
+    font-size: 30px;
+    color: gray;
+}
+
+.sensexdisplay,.niftydisplay{
+
+    display: flex;
+}
+/* Css code for graph and sensex data display ends here */  
+
+/* code for watchlist starts here */
+
+/* Google fonts - Open Sans */
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,700);
+
+/* links */
+.nfl a, .mlb a, .nhl a, .pga a {
+  text-decoration: none;
+  -webkit-transition: color 0.2s ease-out;
+          transition: color 0.2s ease-out;
+}
+
+.nfl a {
+  color: #4fc0d2;
+}
+
+.nfl a:hover {
+  color: #268695;
+}
+
+.mlb a {
+  color: #52d29a;
+}
+
+.mlb a:hover {
+  color: #279766;
+}
+
+.nhl a {
+  color: rgba(231, 196, 104, 0.7);
+}
+
+.nhl a:hover {
+  color: rgba(201, 154, 32, 0.7);
+}
+
+.pga a {
+  color: #eb7655;
+}
+
+.pga a:hover {
+  color: #c33d17;
+}
+
+/* wrapper */
+.wrapper {
+  width: 500px;
+  margin-top: 10px;
+  padding: 0;
+  /*background: rgba(84, 82, 82, 0.1);*/
+  /*background: #314451;*/
+  background: white;
+  /*color: rgba(255, 255, 255, 0.9);*/
+  color: black;
+  overflow: hidden;
+  float: left;
+  margin-left: 20px;
+  border-radius: 20px;
+}
+
+/* lists */
+.row ul {
+    margin:0px;
+    margin-left:50px;
+    padding: 0;
+}
+
+.row ul li {
+  margin: 0;
+  font-size: 16px;
+  font-weight: normal;
+  list-style: none;
+  display: inline-block;
+  width: 25%;
+  
+}
+.title1 ul li {
+  padding: 15px 13px;
+}
+
+.row ul li {
+  padding: 5px 5px;
+}
+
+/* rows */
+.row {
+  padding: 10px 0;
+  height: 50px;
+  font-size: 0;
+  position: relative;
+  overflow: hidden;
+  -webkit-transition: all 0.2s ease-out;
+          transition: all 0.2s ease-out;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.row:hover {
+  background-color: #314451;
+  height: 85px;
+}
+.title1 {
+  padding: 3px 0 5px 0;
+  height: 65px;
+  font-size: 0;
+  background-color: #D9DCDE;
+  border-left: 3px solid rgba(255, 255, 255, 0.1);
+}
+
+.title1:hover {
+  height: 60px;
+  background-color: #D9DCDE;
+  border-left: 3px solid rgba(255, 255, 255, 0.1);
+}
+.watchlisttag{
+
+    color: #7A7A7A;
+    margin-left: 25px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.nfl {
+  border-left: 3px solid #1c616c;
+}
+
+.nfl:hover {
+  border-left: 3px solid #4fc0d2;
+}
+
+.mlb {
+  border-left: 3px solid #1d6e4b;
+}
+
+.mlb:hover {
+  border-left: 3px solid #52d29a;
+}
+
+.nhl {
+  border-left: 3px solid rgba(157, 121, 25, 0.7);
+}
+
+.nhl:hover {
+  border-left: 3px solid rgba(231, 196, 104, 0.7);
+}
+
+.pga {
+  border-left: 3px solid #952f12;
+}
+
+.pga:hover {
+  border-left: 3px solid #eb7655;
+}
+
+/* more content */
+ul.more-content li {
+  position: relative;
+  top: 5px;
+  margin-bottom: 2px;
+  font-size: 13px;
+  margin: 0;
+  padding: 5px 13px;
+  display: block;
+  height: 60px;
+  width: 100%;
+  color: white;
+}
+ /* code for watchlist ends here */
+
+ /* code for donut chart starts here */
+
+ .donutchart{
+  width: 467px;
+  height: 365px;
+  margin-top: 10px;
+  /*background: rgba(84, 82, 82, 0.1);*/
+  /*background: #314451;*/
+  background: white;
+  color: rgba(255, 255, 255, 0.9);
+  overflow: hidden;
+  float: left;
+  margin-left: 25px;
+  border-radius: 20px;
+ }
+
+ .chart {
+  position: absolute;
+  width: 300px;
+  height: 275px;
+  margin-top: 47px;
+}
+
+.doughnutTip {
+  position: absolute;
+  min-width: 30px;
+  max-width: 300px;
+  padding: 5px 15px;
+  border-radius: 1px;
+  background: rgba(0, 0, 0, 0.8);
+  color: #ddd;
+  font-size: 17px;
+  text-shadow: 0 1px 0 #000;
+  text-transform: uppercase;
+  text-align: center;
+  line-height: 1.3;
+  letter-spacing: .06em;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);
+  pointer-events: none;
+}
+.doughnutTip::after {
+  position: absolute;
+  left: 50%;
+  bottom: -6px;
+  content: "";
+  height: 0;
+  margin: 0 0 0 -6px;
+  border-right: 5px solid transparent;
+  border-left: 5px solid transparent;
+  border-top: 6px solid rgba(0, 0, 0, 0.7);
+  line-height: 0;
+}
+
+.doughnutSummary {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  color: #d5d5d5;
+  text-align: center;
+  text-shadow: 0 -1px 0 #111;
+  cursor: default;
+}
+
+.doughnutSummaryTitle {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  margin-top: -27%;
+  font-size: 22px;
+  letter-spacing: .06em;
+}
+
+.doughnutSummaryNumber {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  margin-top: -15%;
+  font-size: 55px;
+}
+
+.chart path:hover {
+  opacity: 0.65;
+}
+ /* code for donut chart ends here */
+
+/* code for sensex display data starts here */
+
+.sensex-data-display{
+  display: inline-table;
+  margin-top: 69px;
+  margin-left: 20px;
+  width: 96%;
+  padding: 0;
+  background: #F1F4F4;
+  color: rgba(255, 255, 255, 0.9);
+  overflow: hidden;
+  float: left;
+   border-bottom: 1px solid rgb(196, 196, 199);
+  border-radius: 30px;
+  /*box-shadow: 0px 2px 5px 0px rgb(89, 89, 157), 0px -3px 0px 0px rgb(89, 89, 157);*/
+}
+
+.heading-title{
+  padding: 2px 0 3px 0;
+  height: 25px;
+  font-size: 13px;
+  background-color: #CC324B;
+  border-left: 3px solid rgba(255, 255, 255, 0.1);
+}
+
+.heading-title ul{
+display: flex;
+list-style-type: none;
+}
+
+.heading-title:hover {
+  height: 25px;
+  background-color: #CC324B;
+  border-left: 3px solid rgba(255, 255, 255, 0.1);
+}
+
+.heading-title ul li {
+  padding: 5px 20px;
+  width: 25%;
+}
+
+.display-heading li{
+  
+  margin-left: 20px;
+}
+
+.display-heading ul li {
+  margin: 0;
+  font-size: 16px;
+  font-weight: normal;
+  list-style: none;
+  display: inline-block;
+  width: 25%; 
+}
+
+/* rows */
+.display-heading {
+  padding: 2px 0;
+  height: 50px;
+  font-size: 0;
+  position: relative;
+  overflow: hidden;
+  -webkit-transition: all 0.2s ease-out;
+          transition: all 0.2s ease-out;
+  border-top:1px solid rgba(64, 132, 89, .6);
+}
+
+.display-heading:hover {
+  background-color: #314451;
+  height: 75px;
+}
+
+.display-heading ul {
+    margin:0px;
+    margin-left:50px;
+    padding: 0;
+}
+
+#heading1{
+
+  font-size: 25px;
+  /*color:rgb(203, 203, 203);*/
+  color: #88bd0a;
+  font-family: serif;
+}
+/* more content */
+ul.more-content li {
+  position: relative;
+  top: 5px;
+  margin-bottom: 2px;
+  font-size: 13px;
+  margin: 0;
+  padding: 5px 13px;
+  display: block;
+  height: 60px;
+  width: 100%;
+  color: white;
+}
+
+.ticker{
+
+  display: flex;
+  margin-left: -100px;
+  width: 700px;
+}
+
+.ticker .label{
+
+  font-size: 11px;
+}
+
+
+.ticker .data-stat{
+
+  font-size: 18px;
+  color: #88bd0a;
+ /* margin-left: 3px;
+  margin-right: 3px;*/
+  margin-top: -7px;
+}
+
+.ticker span:nth-child(even){
+
+  width: 17%;
+  text-align: left;
+}
+
+
+.ticker span:nth-child(odd){
+
+  width: 10%;
+      padding-left: 15px;
+  margin-right: 5px;
+}
+/* code for sensex display data ends here */
+

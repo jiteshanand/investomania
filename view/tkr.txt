@@ -1,0 +1,68 @@
+<!--code for sensex data display starts here -->
+<!-- ##################################################################################-->
+<!-- 
+<section class="sensex-data-display">
+  <article  class="display-heading">
+  <ul>
+<li id="heading1">Sensex</li>
+<li>
+
+<div class="ticker">
+<span class="label">LastPrice</span>
+<span class="data-stat">26456.00</span>
+<span class="label">High</span>
+<span class="data-stat">26475.00</span>
+<span class="label">Low</span>
+<span class="data-stat">26440.00</span>
+<span class="label">change</span>
+<span class="data-stat">134.50(+1.80%)</span>
+<span class="label">Last Trade</span>
+<span class="data-stat" style="font-size:12px;margin-top:0px;font-weight:bold;">8/13/2015,4:01pm</span>
+
+</div>
+</li>
+  </ul>
+  </article>
+  <article  class="display-heading">
+  <ul class="display-heading">
+<li id="heading1">Nifty</li>
+<li>
+<div class="ticker">
+<span class="label">LastPrice</span>
+<span class="data-stat">7487.00</span>
+<span class="label">High</span>
+<span class="data-stat">7502.00</span>
+<span class="label">Low</span>
+<span class="data-stat">7465.00</span>
+<span class="label">change</span>
+<span class="data-stat">65.00(+1.56%)</span>
+<span class="label">Last Trade</span>
+<span class="data-stat" style="font-size:12px;margin-top:0px;font-weight:bold;">8/13/2015,4:01pm</span>
+</div>
+
+
+</li>
+
+  </ul>
+  </article>
+  <article  class="display-heading">
+  <ul class="display-heading">
+<li id="heading1">Portfolio</li>
+<li>
+<div class="ticker">
+<span class="label">Gain/Loss</span>
+<span class="data-stat">245.00(3.85%)</span>
+<span class="label">Top Gainer</span>
+<span class="data-stat">INFY(1.25%)</span>
+<span class="label">Top Loser</span>
+<span class="data-stat">Airtel(0.76%)</span>
+</div>
+
+</li>
+
+  </ul>
+</article>
+</section>
+ -->
+<!--code for sensex data display ends here -->
+<!-- ##################################################################################-->

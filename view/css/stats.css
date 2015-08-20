@@ -1,0 +1,66 @@
+.stat-content{
+
+
+    margin-top: 164px;
+    text-align: center;
+    background-color: #EBEBEB;
+    margin-left: -350px;
+    width: 110%;	
+
+}
+
+.main-title-l1{
+
+	font-size: 25px;
+	color: #5B5858;
+	font-weight: bold;
+	
+}
+
+.main-title-l2{
+
+	font-size: 30px;
+	color: #B18585;
+	font-weight: bold;
+	font-family: cursive;
+	
+	
+}
+
+.volume-stat-title,.trend-stat-title{
+
+	font-size: 20px;
+	font-family: 'Exo', sans-serif;
+	font-weight: bold;
+}
+
+
+.volume-stat{
+
+	text-align: center;
+}
+
+.volume-data,.trending-data{
+	
+	margin-left: 15px;
+	
+}
+
+.volume-data td,.trending-data td{
+
+	padding: 10px;
+
+}
+
+
+.stat-data{
+	font-size: 16px;
+	color: #359435;
+	font-weight: bold;
+	font-family: 'Exo', sans-serif;
+}
+
+.stat-label{
+
+	font-family: 'Bree Serif', serif;
+}
